@@ -34,43 +34,43 @@ let package = Package(
                 .product(name: "NIO", package: "swift-nio"),
                 .product(name: "Html", package: "swift-html")
             ]),
-        .target(
+        .executableTarget(
             name: "DcmAnonymize",
             dependencies: [
                 "DcmSwift",
                 .product(name: "ArgumentParser", package: "swift-argument-parser")
             ]),
-        .target(
+        .executableTarget(
             name: "DcmPrint",
             dependencies: [
                 "DcmSwift",
                 .product(name: "ArgumentParser", package: "swift-argument-parser")
             ]),
-        .target(
+        .executableTarget(
             name: "DcmSR",
             dependencies: [
                 "DcmSwift",
                 .product(name: "ArgumentParser", package: "swift-argument-parser")
             ]),
-        .target(
+        .executableTarget(
             name: "DcmServer",
             dependencies: [
                 "DcmSwift",
                 .product(name: "ArgumentParser", package: "swift-argument-parser")
             ]),
-        .target(
+        .executableTarget(
             name: "DcmEcho",
             dependencies: [
                 "DcmSwift",
                 .product(name: "ArgumentParser", package: "swift-argument-parser")
             ]),
-        .target(
+        .executableTarget(
             name: "DcmStore",
             dependencies: [
                 "DcmSwift",
                 .product(name: "ArgumentParser", package: "swift-argument-parser")
             ]),
-        .target(
+        .executableTarget(
             name: "DcmFind",
             dependencies: [
                 "DcmSwift",
